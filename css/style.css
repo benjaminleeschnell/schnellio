@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#home {
+	position:relative;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.hero-video {
+	height: 100%;
+	position: relative;
+}
+
+#home video {
+	height: 100%;
+	width: 100%;
+    position: absolute;
+    top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	object-fit: cover;
+}
+#home .main-content {
+    display: flex;
+    justify-content: center;
+}
+#home .logo {
+    position: absolute;
+    bottom: 60px;
+    display: flex;
+    justify-content: center;
+    border: solid 3px rgba(255,255,255,0.5);
+    align-items: center;
+    max-width: 90%;
+    margin: 0 30px;
+}
+
+#home .logo .hero-text {
+    display: flex;
+    flex-direction: column;
+    border-left: solid 3px rgba(255,255,255,0.5);
+}
+
+#home .logo .hero-header-main {
+
+}
+
+#home .logo .hero-cta {
+    border-top: solid 3px rgba(255,255,255,0.5);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#home .logo .logo-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#home .logo img {
+    max-width: 250px;
+    max-height: 250px;
+    bottom: 0;
+    position: relative;
+}
+
+#home .logo h1 {
+    position: relative;
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Antic Slab';
+    text-align: center;
+    padding: 20px;
+}
+
+#home .logo h3 {
+    position: relative;
+    color: #fff;
+    font-size: 1.2em;
+    font-family: 'Antic Slab';
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+#home .logo button {
+    background: #333;
+    border-radius: 5px;
+    margin: 0 auto;
+    appearance: none;
+    border: none;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#home .logo button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 25px 45px;
+    box-sizing: border-box;
+    font-family: 'Antic Slab';
+}
+
+@media (max-width: 740px) {
+    #home .logo {
+        flex-direction: column;
+    }
+    #home .logo .hero-header-main {
+        border-top: solid 3px rgba(255,255,255,0.5);
+    }
+    #home .logo .hero-text {
+        border: none;
+    }
+}
+
+
+
