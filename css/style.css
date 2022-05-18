@@ -34,16 +34,17 @@
     bottom: 60px;
     display: flex;
     justify-content: center;
-    border: solid 3px rgba(255,255,255,0.5);
+    border: solid 1px rgba(255,255,255,0.5);
     align-items: center;
     max-width: 90%;
     margin: 0 30px;
+    background: rgba(0,0,0,0.4);
 }
 
 #home .logo .hero-text {
     display: flex;
     flex-direction: column;
-    border-left: solid 3px rgba(255,255,255,0.5);
+    border-left: solid 1px rgba(255,255,255,0.5);
 }
 
 #home .logo .hero-header-main {
@@ -51,7 +52,7 @@
 }
 
 #home .logo .hero-cta {
-    border-top: solid 3px rgba(255,255,255,0.5);
+    border-top: solid 1px rgba(255,255,255,0.5);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -118,7 +119,7 @@
         flex-direction: column;
     }
     #home .logo .hero-header-main {
-        border-top: solid 3px rgba(255,255,255,0.5);
+        border-top: solid 1px rgba(255,255,255,0.5);
     }
     #home .logo .hero-text {
         border: none;
