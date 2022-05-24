@@ -162,7 +162,7 @@
     #home .logo .hero-text {
         border: none;
     }
-    #playPause {
+    #home #playPause {
         display: none; /* Temporary! */
     }
 }
